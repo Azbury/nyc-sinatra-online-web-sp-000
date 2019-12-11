@@ -4,4 +4,8 @@ class FiguresController < ApplicationController
     @landmarks = Landmark.all
     erb :'figures/new'
   end
+
+  post '/figures' do
+
+  end
 end
